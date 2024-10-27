@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Smart Devices UI</title>
+</head>
+<body>
+    <div class="container-fluid bg-dark text-white p-3 text-center">
+        <h4>SMART DEVICES</h4>
+    </div>
+    <%- body %>
+    <footer class="fixed-bottom bg-dark text-white">
+        <div class="d-flex justify-content-around">
+            <button class="btn btn-dark">UNITS</button>
+            <button class="btn btn-dark">GROUPS</button>
+            <button class="btn btn-dark">🎤</button>
+            <button class="btn btn-dark">BOOST</button>
+            <button class="btn btn-dark">NORMAL</button>
+        </div>
+    </footer>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>

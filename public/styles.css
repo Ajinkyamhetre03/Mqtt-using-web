@@ -1,0 +1,29 @@
+body {
+  background-color: #3c3c52;
+  color: white;
+}
+.line-card {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.bg-white {
+  background-color: #ffffff !important;
+  color: black !important;
+}
+.bg-secondary {
+  background-color: #444466 !important;
+  color: white;
+}
+/* Remove hover and click effects from Wi-Fi and Cloud buttons */
+.wifi-btn:hover,
+.cloud-btn:hover,
+.wifi-btn:active,
+.cloud-btn:active,
+.wifi-btn:focus,
+.cloud-btn:focus {
+  background-color: transparent !important;
+  border-color: #ffffff !important; /* Maintain the original border color */
+  color: inherit !important; /* Maintain the original text color */
+  box-shadow: none !important; /* Remove any click shadow effect */
+  outline: none !important; /* Remove the focus outline */
+}
